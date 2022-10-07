@@ -66,7 +66,7 @@ public function update(Request $request,$id){
     $request->validate([
         'title' => 'required',
         'description' => 'required',
-        'image'=>'required',
+        'image'=>'nullable',
     ]);
 
 
